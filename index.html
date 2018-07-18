@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <meta charset="utf-8">
-    <title>Grocery</title>
-  </head>
-  <body>
-    <!--  -->
-    <div class="container-fluid">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-       </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="https://cdn5.f-cdn.com/contestentries/109529/8137888/542ee5c575b9f_thumb900.jpg" alt="Los Angeles" style="width:100%;height:90%;">
-      </div>
-      <div class="item">
-        <img src="https://cdn3.f-cdn.com/contestentries/109529/8137888/542eeedbee0c8_thumb900.jpg" alt="onlinegrocery" style="width:100%;height:90%;">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>Grocery</title>
+</head>
+
+<body>
+  <!--  -->
+  <div class="container-fluid">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="https://cdn5.f-cdn.com/contestentries/109529/8137888/542ee5c575b9f_thumb900.jpg" alt="Los Angeles" style="width:100%;height:90%;">
+        </div>
+        <div class="item">
+          <img src="http://media-s3-us-east-1.ceros.com/app/images/2017/01/31/7ca97613cc55be952e86830d4634ca73/groceries.jpg" alt="onlinegrocery" style="width:100%;height:90%;">
+        </div>
+        <!-- <div class="items">
+          <img src="https://ssl.c.photoshelter.com/img-get2/I00002wColmx_6_U/fit=1000x750/35780037.jpg" alt="onlinegrocery" style="width:100%;height:90%;">
+        </div> -->
       </div>
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -52,61 +58,62 @@
         </div>
         <div class="form-group">
           <label for="inputEmail3" class="col-sm-2 control-label">Second Item:</label>
-        <div class="col-sm-10">
-          <input type="" class="form-control" id="item2" placeholder="">
+          <div class="col-sm-10">
+            <input type="" class="form-control" id="item2" placeholder="">
+          </div>
         </div>
-      </div>
-      <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">Third Item:</label>
-        <div class="col-sm-10">
-          <input type="" class="form-control" id="item3" placeholder="">
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Third Item:</label>
+          <div class="col-sm-10">
+            <input type="" class="form-control" id="item3" placeholder="">
+          </div>
         </div>
-      </div>
 
-      <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">Fourth Item:</label>
-        <div class="col-sm-10">
-          <input type="" class="form-control" id="item4" placeholder="">
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Fourth Item:</label>
+          <div class="col-sm-10">
+            <input type="" class="form-control" id="item4" placeholder="">
+          </div>
         </div>
-      </div>
 
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">Add to cart</button>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Add to cart</button>
+          </div>
         </div>
+      </form>
+    </div>
+    <!-- My modal -->
+    <div class="mymodal">
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">FOR HOME DELIVERY</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>For home delivery contact us at;</h2>
+          </div>
+          <div class="modal-body">
+            <h2>grocerymania@gmail.com </h2>
+            <h2><strong>Facebook: </strong>Grocery_mania </h2>
+            <h3><strong>Customer care: </strong>0729379342</h3>
+
+          </div>
+          <div class="modal-footer">
+            <img src="http://ieuan.com/zach/Welcome.png" alt="welcome" height="100px">
+          </div>
+        </div>
+
       </div>
-    </form>
+    </div>
+    <!-- End of my Modal -->
   </div>
-  <!-- My modal -->
-  <div class="mymodal">
-    <!-- Trigger/Open The Modal -->
-  <button id="myBtn">FOR HOME DELIVERY</button>
-
-  <!-- The Modal -->
-  <div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-  <div class="modal-header">
-    <span class="close">&times;</span>
-    <h2>For home delivery contact us at;</h2>
-  </div>
-  <div class="modal-body">
-    <h2>grocerymania@gmail.com </h2>
-    <h2><strong>Facebook: </strong>Grocery_mania </h2>
-    <h3><strong>Customer care: </strong>0729379342</h3>
-
-  </div>
-  <div class="modal-footer">
-    <img src="http://ieuan.com/zach/Welcome.png" alt="welcome" height="100px">
-  </div>
-  </div>
-
-  </div>
-  </div>
-  <!-- End of my Modal -->
-</div>
 
   <script src="js/scripts.js"></script>
-  </body>
+</body>
+
 </html>
